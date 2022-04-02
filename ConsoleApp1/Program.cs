@@ -4,12 +4,12 @@ namespace ConsoleApp1
 {
     public class MyClass
     { 
-        public void Square()
+        public void Square() //S=3.14*r*r
         { 
             double s;
             Console.Write("Введите радиус круга ");
             double r = Convert.ToDouble(Console.ReadLine());
-            s = r*r;
+            s = 3.14f*Math.Pow(r,2);
             Console.WriteLine("Площадь круга равна {0}",s);
             Console.WriteLine('-');
         }
