@@ -24,10 +24,6 @@ namespace ConsoleApp1
             Console.WriteLine("Площадь треугольника равна: {0}", triangle.Square());
             Console.WriteLine("-");
             Console.WriteLine(triangle.RightTriangle());
-            //Console.WriteLine(triangle.RightTriangle()); 
-            //MyClass my = new MyClass();
-            //my.Square();
-            //my.Triangle();
 
             Console.ReadLine();
         }
