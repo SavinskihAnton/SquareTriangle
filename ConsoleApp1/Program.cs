@@ -11,7 +11,7 @@ namespace ConsoleApp1
             Circle circle1 = new Circle("Круг",r);
             Console.WriteLine(circle1.ToString());
             Console.WriteLine("Площадь круга равна: {0}", circle1.Square());
-            Console.WriteLine("-");
+            Console.WriteLine("--");
 
             Console.Write("Введите первую сторону треугольника: ");
             double a = Convert.ToDouble(Console.ReadLine());
@@ -22,7 +22,7 @@ namespace ConsoleApp1
             Triangle triangle = new Triangle("Треугольник", a,b,c);
             Console.WriteLine(triangle.ToString());
             Console.WriteLine("Площадь треугольника равна: {0}", triangle.Square());
-            Console.WriteLine("-");
+            Console.WriteLine("--");
             Console.WriteLine(triangle.RightTriangle());
 
             Console.ReadLine();
